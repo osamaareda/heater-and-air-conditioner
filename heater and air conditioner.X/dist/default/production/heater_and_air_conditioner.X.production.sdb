@@ -1,0 +1,1310 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"16 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/DC_MOTOR/dc_motor.c
+[e E3043 . `uc
+DC_MOTOR_OFF 0
+DC_MOTOR_ON 1
+]
+"49
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"88 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LCD/lcd.c
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"17 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LED/led.c
+[e E3043 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"49
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"30 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/ADC/adc.c
+[e E3043 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+[e E3062 . `uc
+ADC_0_TAD 0
+ADC_2_TAD 1
+ADC_4_TAD 2
+ADC_6_TAD 3
+ADC_8_TAD 4
+ADC_12_TAD 5
+ADC_16_TAD 6
+ADC_20_TAD 7
+]
+[e E3072 . `uc
+ADC_CONVERSION_CLOCK_FOSC_DIV_2 0
+ADC_CONVERSION_CLOCK_FOSC_DIV_8 1
+ADC_CONVERSION_CLOCK_FOSC_DIV_32 2
+ADC_CONVERSION_CLOCK_FOSC_DIV_FRC 3
+ADC_CONVERSION_CLOCK_FOSC_DIV_4 4
+ADC_CONVERSION_CLOCK_FOSC_DIV_16 5
+ADC_CONVERSION_CLOCK_FOSC_DIV_64 6
+]
+[e E3047 . `uc
+ADC_CHANNEL_AN0 0
+ADC_CHANNEL_AN1 1
+ADC_CHANNEL_AN2 2
+ADC_CHANNEL_AN3 3
+ADC_CHANNEL_AN4 4
+ADC_CHANNEL_AN5 5
+ADC_CHANNEL_AN6 6
+ADC_CHANNEL_AN7 7
+ADC_CHANNEL_AN8 8
+ADC_CHANNEL_AN9 9
+ADC_CHANNEL_AN10 10
+ADC_CHANNEL_AN11 11
+ADC_CHANNEL_AN12 12
+]
+"23 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/GPIO/gpio.c
+[e E2982 . `uc
+OUTPUT 0
+INPUT 1
+]
+"81
+[e E2978 . `uc
+LOW 0
+HIGH 1
+]
+"235
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"24 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[e E3047 . `uc
+BAUDRATE_ASYN_8BIT_lOW_SPEED 0
+BAUDRATE_ASYN_8BIT_HIGH_SPEED 1
+BAUDRATE_ASYN_16BIT_lOW_SPEED 2
+BAUDRATE_ASYN_16BIT_HIGH_SPEED 3
+BAUDRATE_SYN_8BIT 4
+BAUDRATE_SYN_16BIT 5
+]
+[e E3043 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+"19 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\app.c
+[e E3059 . `uc
+DC_MOTOR_OFF 0
+DC_MOTOR_ON 1
+]
+"20
+[e E3043 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"10 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\init.c
+[e E3129 . `uc
+BAUDRATE_ASYN_8BIT_lOW_SPEED 0
+BAUDRATE_ASYN_8BIT_HIGH_SPEED 1
+BAUDRATE_ASYN_16BIT_lOW_SPEED 2
+BAUDRATE_ASYN_16BIT_HIGH_SPEED 3
+BAUDRATE_SYN_8BIT 4
+BAUDRATE_SYN_16BIT 5
+]
+[e E3125 . `uc
+LOW_PRIORITY 0
+HIGH_PRIORITY 1
+]
+"19
+[e E2996 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2986 . `uc
+PIN0 0
+PIN1 1
+PIN2 2
+PIN3 3
+PIN4 4
+PIN5 5
+PIN6 6
+PIN7 7
+]
+"28
+[e E3059 . `uc
+DC_MOTOR_OFF 0
+DC_MOTOR_ON 1
+]
+"35
+[e E3043 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"15 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\app.c
+[v _MY_EUSART_RX_ISR MY_EUSART_RX_ISR `(v  1 e 1 0 ]
+"39
+[v _main main `(i  1 e 2 0 ]
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"1177 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1817
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\memset.c
+[v _memset memset `(*.30v  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"16 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/DC_MOTOR/dc_motor.c
+[v _dc_motor_init dc_motor_init `(uc  1 e 1 0 ]
+"41
+[v _dc_motor_move_right dc_motor_move_right `(uc  1 e 1 0 ]
+"91
+[v _dc_motor_stop dc_motor_stop `(uc  1 e 1 0 ]
+"30 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LCD/lcd.c
+[v _lcd_init lcd_init `(uc  1 e 1 0 ]
+"78
+[v _lcd_send_command lcd_send_command `(uc  1 e 1 0 ]
+[v i2_lcd_send_command lcd_send_command `(uc  1 e 1 0 ]
+"115
+[v _lcd_send_char_data lcd_send_char_data `(uc  1 e 1 0 ]
+"151
+[v _lcd_send_char_data_pos lcd_send_char_data_pos `(uc  1 e 1 0 ]
+"177
+[v _lcd_send_string lcd_send_string `(uc  1 e 1 0 ]
+"206
+[v _lcd_send_string_pos lcd_send_string_pos `(uc  1 e 1 0 ]
+"289
+[v _lcd_send_number_pos lcd_send_number_pos `(uc  1 e 1 0 ]
+"336
+[v _convert_uint16_to_string convert_uint16_to_string `(uc  1 e 1 0 ]
+"376
+[v _lcd_send_nbits lcd_send_nbits `(uc  1 s 1 lcd_send_nbits ]
+[v i2_lcd_send_nbits lcd_send_nbits `(uc  1 s 1 i2_lcd_send_nbits ]
+"388
+[v _lcd_send_enable lcd_send_enable `(uc  1 s 1 lcd_send_enable ]
+[v i2_lcd_send_enable lcd_send_enable `(uc  1 s 1 i2_lcd_send_enable ]
+"400
+[v _lcd_set_curser lcd_set_curser `(uc  1 s 1 lcd_set_curser ]
+"17 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LED/led.c
+[v _led_init led_init `(uc  1 e 1 0 ]
+"41
+[v _led_on led_on `(uc  1 e 1 0 ]
+"65
+[v _led_off led_off `(uc  1 e 1 0 ]
+"39 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\init.c
+[v __init _init `(v  1 e 1 0 ]
+"114 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/ADC/adc.c
+[v _ADC_SelectChannel ADC_SelectChannel `(uc  1 e 1 0 ]
+"139
+[v _ADC_StartConversion ADC_StartConversion `(uc  1 e 1 0 ]
+"195
+[v _ADC_GetConversionResult ADC_GetConversionResult `(uc  1 e 1 0 ]
+"276
+[v _adc_input_channel_port_configure adc_input_channel_port_configure `(v  1 s 1 adc_input_channel_port_configure ]
+"299
+[v _select_result_format select_result_format `(v  1 s 1 select_result_format ]
+"311
+[v _configure_voltage_reference configure_voltage_reference `(v  1 s 1 configure_voltage_reference ]
+"322
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"23 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/GPIO/gpio.c
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+"81
+[v _gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+[v i2_gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+"138
+[v _gpio_pin_toggle_logic gpio_pin_toggle_logic `(uc  1 e 1 0 ]
+"161
+[v _gpio_pin_output_low_init gpio_pin_output_low_init `(uc  1 e 1 0 ]
+"41 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[v _InterruptManager InterruptManager `IIH(v  1 e 1 0 ]
+"24 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_Init EUSART_ASYNC_Init `(uc  1 e 1 0 ]
+"57
+[v _EUSART_ASYNC_WriteByteBlocking EUSART_ASYNC_WriteByteBlocking `(uc  1 e 1 0 ]
+"118
+[v _EUSART_ASYNC_ReadByteNonBlocking EUSART_ASYNC_ReadByteNonBlocking `(uc  1 e 1 0 ]
+"136
+[v _EUSART_Baud_Rate_Calculation EUSART_Baud_Rate_Calculation `(v  1 s 1 EUSART_Baud_Rate_Calculation ]
+"181
+[v _EUSART_ASYNC_TX_Init EUSART_ASYNC_TX_Init `(v  1 s 1 EUSART_ASYNC_TX_Init ]
+"221
+[v _EUSART_ASYNC_RX_Init EUSART_ASYNC_RX_Init `(v  1 s 1 EUSART_ASYNC_RX_Init ]
+"266
+[v _EUSART_TX_ISR EUSART_TX_ISR `(v  1 e 1 0 ]
+"276
+[v _EUSART_RX_ISR EUSART_RX_ISR `(v  1 e 1 0 ]
+"11 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\app.c
+[v _ret ret `uc  1 e 1 0 ]
+"12
+[v _uart_value uart_value `VEuc  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S1084 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1856
+[s S1093 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S1102 . 1 `S1084 1 . 1 0 `S1093 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1102  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S626 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"2519
+[s S635 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[u S639 . 1 `S626 1 . 1 0 `S635 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES639  1 e 1 @3997 ]
+[s S547 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2596
+[s S556 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S560 . 1 `S547 1 . 1 0 `S556 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES560  1 e 1 @3998 ]
+[s S1030 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3061
+[s S1039 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S1042 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S1045 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S1048 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S1051 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S1053 . 1 `S1030 1 . 1 0 `S1039 1 . 1 0 `S1042 1 . 1 0 `S1045 1 . 1 0 `S1048 1 . 1 0 `S1051 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES1053  1 e 1 @4011 ]
+[s S1139 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3269
+[s S1148 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S1157 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S1160 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S1162 . 1 `S1139 1 . 1 0 `S1148 1 . 1 0 `S1157 1 . 1 0 `S1160 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES1162  1 e 1 @4012 ]
+"3486
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3498
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3510
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3522
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S1227 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4015
+[s S1236 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 RXCKP 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S1241 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S1244 . 1 `S1227 1 . 1 0 `S1236 1 . 1 0 `S1241 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES1244  1 e 1 @4024 ]
+[s S514 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"4394
+[s S519 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S526 . 1 `S514 1 . 1 0 `S519 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES526  1 e 1 @4032 ]
+[s S671 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 VCFG 1 0 :2:4 
+]
+"4469
+[s S674 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+]
+[s S681 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+`uc 1 VCFG01 1 0 :1:4 
+`uc 1 VCFG11 1 0 :1:5 
+]
+[u S686 . 1 `S671 1 . 1 0 `S674 1 . 1 0 `S681 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES686  1 e 1 @4033 ]
+[s S446 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4573
+[s S449 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S453 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S460 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S463 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S466 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S469 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S472 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S475 . 1 `S446 1 . 1 0 `S449 1 . 1 0 `S453 1 . 1 0 `S460 1 . 1 0 `S463 1 . 1 0 `S466 1 . 1 0 `S469 1 . 1 0 `S472 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES475  1 e 1 @4034 ]
+"4655
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4662
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S577 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6406
+[s S586 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S595 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S599 . 1 `S577 1 . 1 0 `S586 1 . 1 0 `S595 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES599  1 e 1 @4082 ]
+"153 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"154
+[v _flags flags `uc  1 s 1 flags ]
+"185
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"10 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LCD/lcd.c
+[v _n n `uc  1 e 1 0 ]
+[s S997 . 2 `E3043 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+"10 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\init.c
+[s S1003 . 2 `E3043 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1009 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1013 . 1 `S1009 1 . 1 0 `uc 1 status 1 0 ]
+[s S1020 . 16 `ui 1 baudrate 2 0 `E3047 1 baudrate_gen_gonfig 1 2 `S997 1 usart_tx_cfg 2 3 `S1003 1 usart_rx_cfg 2 5 `S1013 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v _uart uart `S1020  1 e 16 0 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"19
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v _lcd lcd `S116  1 e 6 0 ]
+"28
+[s S32 . 3 `S24 1 dc_motor_pin0 1 0 `S24 1 dc_motor_pin1 1 1 `E3043 1 dc_motor_state 1 2 ]
+[v _air_conditioners air_conditioners `S32  1 e 3 0 ]
+"31
+[v _heater heater `S32  1 e 3 0 ]
+"35
+[s S347 . 2 `S24 1 led_pin 1 0 `E3043 1 led_state 1 1 ]
+[v _led_red led_red `S347  1 e 2 0 ]
+"36
+[v _led_white led_white `S347  1 e 2 0 ]
+"37
+[v _led_blue led_blue `S347  1 e 2 0 ]
+"12 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/ADC/adc.c
+[v _ADC_InterruptHandler ADC_InterruptHandler `*.37(v  1 s 2 ADC_InterruptHandler ]
+"10 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/GPIO/gpio.c
+[v _trisx trisx `[5]*.39VEuc  1 e 10 0 ]
+"11
+[v _latx latx `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _portx portx `[5]*.39VEuc  1 e 10 0 ]
+"9 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[v _RB4_Flag RB4_Flag `VEuc  1 s 1 RB4_Flag ]
+[v _RB5_Flag RB5_Flag `VEuc  1 s 1 RB5_Flag ]
+[v _RB6_Flag RB6_Flag `VEuc  1 s 1 RB6_Flag ]
+[v _RB7_Flag RB7_Flag `VEuc  1 s 1 RB7_Flag ]
+"11 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[v _EUSART_TxInterruptHandler EUSART_TxInterruptHandler `*.37(v  1 s 2 EUSART_TxInterruptHandler ]
+"14
+[v _EUSART_RxInterruptHandler EUSART_RxInterruptHandler `*.37(v  1 s 2 EUSART_RxInterruptHandler ]
+"15
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 s 2 EUSART_FramingErrorHandler ]
+"16
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 s 2 EUSART_OverrunErrorHandler ]
+"39 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\app.c
+[v _main main `(i  1 e 2 0 ]
+{
+"49
+} 0
+"39 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\init.c
+[v __init _init `(v  1 e 1 0 ]
+{
+"48
+} 0
+"17 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LED/led.c
+[v _led_init led_init `(uc  1 e 1 0 ]
+{
+"20
+[v led_init@gpio_ret gpio_ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"17
+[s S347 . 2 `S24 1 led_pin 1 0 `E3043 1 led_state 1 1 ]
+[v led_init@led led `*.30S347  1 p 1 12 ]
+"31
+} 0
+"30 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LCD/lcd.c
+[v _lcd_init lcd_init `(uc  1 e 1 0 ]
+{
+"34
+[v lcd_init@lcd_ret lcd_ret `uc  1 a 1 25 ]
+"35
+[v lcd_init@pins_counter pins_counter `uc  1 a 1 24 ]
+"32
+[v lcd_init@ret ret `uc  1 a 1 23 ]
+"33
+[v lcd_init@gpio_ret gpio_ret `uc  1 a 1 22 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"30
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_init@lcd lcd `*.30S116  1 p 1 19 ]
+"67
+} 0
+"78
+[v _lcd_send_command lcd_send_command `(uc  1 e 1 0 ]
+{
+"80
+[v lcd_send_command@ret ret `uc  1 a 1 18 ]
+"82
+[v lcd_send_command@lcd_ret lcd_ret `uc  1 a 1 17 ]
+"81
+[v lcd_send_command@gpio_ret gpio_ret `uc  1 a 1 16 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"78
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_command@lcd lcd `*.30S116  1 p 1 14 ]
+[v lcd_send_command@command command `uc  1 p 1 15 ]
+"104
+} 0
+"376
+[v _lcd_send_nbits lcd_send_nbits `(uc  1 s 1 lcd_send_nbits ]
+{
+"378
+[v lcd_send_nbits@pin_counter pin_counter `uc  1 a 1 13 ]
+"379
+[v lcd_send_nbits@ret ret `uc  1 a 1 12 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"376
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_nbits@lcd lcd `*.30S116  1 p 1 8 ]
+[v lcd_send_nbits@data_or_command data_or_command `uc  1 p 1 9 ]
+"386
+} 0
+"388
+[v _lcd_send_enable lcd_send_enable `(uc  1 s 1 lcd_send_enable ]
+{
+"391
+[v lcd_send_enable@gpio_ret gpio_ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"388
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_enable@lcd lcd `*.30S116  1 p 1 8 ]
+"397
+} 0
+"16 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/DC_MOTOR/dc_motor.c
+[v _dc_motor_init dc_motor_init `(uc  1 e 1 0 ]
+{
+"18
+[v dc_motor_init@ret ret `uc  1 a 1 14 ]
+"19
+[v dc_motor_init@gpio_ret gpio_ret `uc  1 a 1 13 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"16
+[s S32 . 3 `S24 1 dc_motor_pin0 1 0 `S24 1 dc_motor_pin1 1 1 `E3043 1 dc_motor_state 1 2 ]
+[v dc_motor_init@dc_motor dc_motor `*.30S32  1 p 1 12 ]
+"31
+} 0
+"161 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/GPIO/gpio.c
+[v _gpio_pin_output_low_init gpio_pin_output_low_init `(uc  1 e 1 0 ]
+{
+"163
+[v gpio_pin_output_low_init@ret ret `uc  1 a 1 11 ]
+"164
+[v gpio_pin_output_low_init@gpio_ret gpio_ret `uc  1 a 1 10 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"161
+[v gpio_pin_output_low_init@pin pin `*.30S24  1 p 1 8 ]
+"175
+} 0
+"81
+[v _gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+{
+"83
+[v gpio_pin_logic_write@ret ret `uc  1 a 1 7 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"81
+[v gpio_pin_logic_write@pin pin `*.30S24  1 p 1 0 ]
+[v gpio_pin_logic_write@pin_logic pin_logic `E2978  1 p 1 1 ]
+"105
+} 0
+"23
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+{
+"25
+[v gpio_pin_direction_init@ret ret `uc  1 a 1 7 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"23
+[v gpio_pin_direction_init@pin pin `*.30S24  1 p 1 0 ]
+[v gpio_pin_direction_init@pin_direction pin_direction `E2982  1 p 1 1 ]
+"47
+} 0
+"24 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_Init EUSART_ASYNC_Init `(uc  1 e 1 0 ]
+{
+"26
+[v EUSART_ASYNC_Init@ret ret `uc  1 a 1 67 ]
+[s S997 . 2 `E3043 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+"24
+[s S1003 . 2 `E3043 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1009 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1013 . 1 `S1009 1 . 1 0 `uc 1 status 1 0 ]
+[s S1020 . 16 `ui 1 baudrate 2 0 `E3047 1 baudrate_gen_gonfig 1 2 `S997 1 usart_tx_cfg 2 3 `S1003 1 usart_rx_cfg 2 5 `S1013 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_ASYNC_Init@_eusart _eusart `*.30CS1020  1 p 1 66 ]
+"42
+} 0
+"136
+[v _EUSART_Baud_Rate_Calculation EUSART_Baud_Rate_Calculation `(v  1 s 1 EUSART_Baud_Rate_Calculation ]
+{
+"138
+[v EUSART_Baud_Rate_Calculation@Baud_Rate_Temp Baud_Rate_Temp `f  1 a 4 58 ]
+[s S997 . 2 `E3043 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+"136
+[s S1003 . 2 `E3043 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1009 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1013 . 1 `S1009 1 . 1 0 `uc 1 status 1 0 ]
+[s S1020 . 16 `ui 1 baudrate 2 0 `E3047 1 baudrate_gen_gonfig 1 2 `S997 1 usart_tx_cfg 2 3 `S1003 1 usart_rx_cfg 2 5 `S1013 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_Baud_Rate_Calculation@_eusart _eusart `*.30CS1020  1 p 1 55 ]
+"178
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"11 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 33 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 26 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 31 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 38 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 37 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 30 ]
+"11
+[v ___fldiv@b b `d  1 p 4 14 ]
+[v ___fldiv@a a `d  1 p 4 18 ]
+"185
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 54 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 53 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 52 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 51 ]
+"10
+[v ___fladd@b b `d  1 p 4 39 ]
+[v ___fladd@a a `d  1 p 4 43 ]
+"237
+} 0
+"181 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_TX_Init EUSART_ASYNC_TX_Init `(v  1 s 1 EUSART_ASYNC_TX_Init ]
+{
+[s S997 . 2 `E3043 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+[s S1003 . 2 `E3043 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1009 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1013 . 1 `S1009 1 . 1 0 `uc 1 status 1 0 ]
+[s S1020 . 16 `ui 1 baudrate 2 0 `E3047 1 baudrate_gen_gonfig 1 2 `S997 1 usart_tx_cfg 2 3 `S1003 1 usart_rx_cfg 2 5 `S1013 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_ASYNC_TX_Init@_eusart _eusart `*.30CS1020  1 p 1 0 ]
+"220
+} 0
+"221
+[v _EUSART_ASYNC_RX_Init EUSART_ASYNC_RX_Init `(v  1 s 1 EUSART_ASYNC_RX_Init ]
+{
+[s S997 . 2 `E3043 1 usart_tx_int_priority 1 0 `uc 1 usart_tx_enable 1 1 :1:0 
+`uc 1 usart_tx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_tx_9bit_enable 1 1 :1:2 
+`uc 1 usart_tx_reserved 1 1 :5:3 
+]
+[s S1003 . 2 `E3043 1 usart_rx_int_priority 1 0 `uc 1 usart_rx_enable 1 1 :1:0 
+`uc 1 usart_rx_interrupt_enable 1 1 :1:1 
+`uc 1 usart_rx_9bit_enable 1 1 :1:2 
+`uc 1 usart_rx_reserved 1 1 :5:3 
+]
+[s S1009 . 1 `uc 1 usart_tx_reserved 1 0 :6:0 
+`uc 1 usart_ferr 1 0 :1:6 
+`uc 1 usart_oerr 1 0 :1:7 
+]
+[u S1013 . 1 `S1009 1 . 1 0 `uc 1 status 1 0 ]
+[s S1020 . 16 `ui 1 baudrate 2 0 `E3047 1 baudrate_gen_gonfig 1 2 `S997 1 usart_tx_cfg 2 3 `S1003 1 usart_rx_cfg 2 5 `S1013 1 error_status 1 7 `*.37(v 1 EUSART_TxDefaultInterruptHandler 2 8 `*.37(v 1 EUSART_RxDefaultInterruptHandler 2 10 `*.37(v 1 EUSART_FramingErrorHandler 2 12 `*.37(v 1 EUSART_OverrunErrorHandler 2 14 ]
+[v EUSART_ASYNC_RX_Init@_eusart _eusart `*.30CS1020  1 p 1 0 ]
+"261
+} 0
+"41 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/INTERRUPT/mcall_interrupt_manager.c
+[v _InterruptManager InterruptManager `IIH(v  1 e 1 0 ]
+{
+"57
+} 0
+"266 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[v _EUSART_TX_ISR EUSART_TX_ISR `(v  1 e 1 0 ]
+{
+"271
+} 0
+"276
+[v _EUSART_RX_ISR EUSART_RX_ISR `(v  1 e 1 0 ]
+{
+"281
+} 0
+"15 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\app.c
+[v _MY_EUSART_RX_ISR MY_EUSART_RX_ISR `(v  1 e 1 0 ]
+{
+"37
+} 0
+"41 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LED/led.c
+[v _led_on led_on `(uc  1 e 1 0 ]
+{
+"43
+[v led_on@ret ret `uc  1 a 1 10 ]
+"44
+[v led_on@gpio_ret gpio_ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"41
+[s S347 . 2 `S24 1 led_pin 1 0 `E3043 1 led_state 1 1 ]
+[v led_on@led led `*.30S347  1 p 1 8 ]
+"55
+} 0
+"65
+[v _led_off led_off `(uc  1 e 1 0 ]
+{
+"67
+[v led_off@ret ret `uc  1 a 1 10 ]
+"68
+[v led_off@gpio_ret gpio_ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"65
+[s S347 . 2 `S24 1 led_pin 1 0 `E3043 1 led_state 1 1 ]
+[v led_off@led led `*.30S347  1 p 1 8 ]
+"79
+} 0
+"289 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/LCD/lcd.c
+[v _lcd_send_number_pos lcd_send_number_pos `(uc  1 e 1 0 ]
+{
+"296
+[v lcd_send_number_pos@lcd_ret lcd_ret `uc  1 a 1 58 ]
+"295
+[v lcd_send_number_pos@gpio_ret gpio_ret `uc  1 a 1 57 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"289
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_number_pos@lcd lcd `*.30S116  1 p 1 52 ]
+[v lcd_send_number_pos@row row `uc  1 p 1 53 ]
+[v lcd_send_number_pos@column column `uc  1 p 1 54 ]
+[v lcd_send_number_pos@num num `us  1 p 2 55 ]
+"291
+[v lcd_send_number_pos@number number `[1]uc  1 s 1 number ]
+"306
+} 0
+"206
+[v _lcd_send_string_pos lcd_send_string_pos `(uc  1 e 1 0 ]
+{
+"210
+[v lcd_send_string_pos@lcd_ret lcd_ret `uc  1 a 1 31 ]
+"209
+[v lcd_send_string_pos@gpio_ret gpio_ret `uc  1 a 1 30 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"206
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_string_pos@lcd lcd `*.30S116  1 p 1 26 ]
+[v lcd_send_string_pos@row row `uc  1 p 1 27 ]
+[v lcd_send_string_pos@column column `uc  1 p 1 28 ]
+[v lcd_send_string_pos@str str `*.30uc  1 p 1 29 ]
+"221
+} 0
+"400
+[v _lcd_set_curser lcd_set_curser `(uc  1 s 1 lcd_set_curser ]
+{
+"404
+[v lcd_set_curser@lcd_ret lcd_ret `uc  1 a 1 25 ]
+"403
+[v lcd_set_curser@gpio_ret gpio_ret `uc  1 a 1 24 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"400
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_set_curser@lcd lcd `*.30S116  1 p 1 19 ]
+[v lcd_set_curser@row row `uc  1 p 1 20 ]
+[v lcd_set_curser@column column `uc  1 p 1 21 ]
+"422
+} 0
+"78
+[v i2_lcd_send_command lcd_send_command `(uc  1 e 1 0 ]
+{
+"80
+[v i2lcd_send_command@ret ret `uc  1 a 1 18 ]
+"82
+[v i2lcd_send_command@lcd_ret lcd_ret `uc  1 a 1 17 ]
+"81
+[v i2lcd_send_command@gpio_ret gpio_ret `uc  1 a 1 16 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"78
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v i2lcd_send_command@lcd lcd `*.30S116  1 p 1 14 ]
+[v i2lcd_send_command@command command `uc  1 p 1 15 ]
+"104
+} 0
+"177
+[v _lcd_send_string lcd_send_string `(uc  1 e 1 0 ]
+{
+"179
+[v lcd_send_string@ret ret `uc  1 a 1 23 ]
+"181
+[v lcd_send_string@lcd_ret lcd_ret `uc  1 a 1 22 ]
+"180
+[v lcd_send_string@gpio_ret gpio_ret `uc  1 a 1 21 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"177
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_string@lcd lcd `*.30S116  1 p 1 19 ]
+[v lcd_send_string@str str `*.30uc  1 p 1 20 ]
+"194
+} 0
+"115
+[v _lcd_send_char_data lcd_send_char_data `(uc  1 e 1 0 ]
+{
+"117
+[v lcd_send_char_data@ret ret `uc  1 a 1 18 ]
+"119
+[v lcd_send_char_data@lcd_ret lcd_ret `uc  1 a 1 17 ]
+"118
+[v lcd_send_char_data@gpio_ret gpio_ret `uc  1 a 1 16 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"115
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v lcd_send_char_data@lcd lcd `*.30S116  1 p 1 14 ]
+[v lcd_send_char_data@data data `uc  1 p 1 15 ]
+"140
+} 0
+"376
+[v i2_lcd_send_nbits lcd_send_nbits `(uc  1 s 1 i2_lcd_send_nbits ]
+{
+"378
+[v i2lcd_send_nbits@pin_counter pin_counter `uc  1 a 1 13 ]
+"379
+[v i2lcd_send_nbits@ret ret `uc  1 a 1 12 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"376
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v i2lcd_send_nbits@lcd lcd `*.30S116  1 p 1 8 ]
+[v i2lcd_send_nbits@data_or_command data_or_command `uc  1 p 1 9 ]
+"386
+} 0
+"388
+[v i2_lcd_send_enable lcd_send_enable `(uc  1 s 1 i2_lcd_send_enable ]
+{
+"391
+[v i2lcd_send_enable@gpio_ret gpio_ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"388
+[s S116 . 6 `S24 1 lcd_rs 1 0 `S24 1 lcd_en 1 1 `[4]S24 1 lcd_pins 4 2 ]
+[v i2lcd_send_enable@lcd lcd `*.30S116  1 p 1 8 ]
+"397
+} 0
+"336
+[v _convert_uint16_to_string convert_uint16_to_string `(uc  1 e 1 0 ]
+{
+"338
+[v convert_uint16_to_string@Temp_String Temp_String `[6]uc  1 a 6 45 ]
+"339
+[v convert_uint16_to_string@DataCounter DataCounter `uc  1 a 1 51 ]
+"336
+[v convert_uint16_to_string@value value `us  1 p 2 42 ]
+[v convert_uint16_to_string@str str `*.30uc  1 p 1 44 ]
+"337
+[v convert_uint16_to_string@F3180 F3180 `[6]uc  1 s 6 F3180 ]
+"353
+} 0
+"9 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S2119 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+"13
+[s S2122 _IO_FILE 12 `S2119 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v sprintf@f f `S2122  1 a 12 30 ]
+"12
+[v sprintf@ap ap `[1]*.30v  1 a 1 29 ]
+"9
+[v sprintf@s s `*.30uc  1 p 1 25 ]
+[v sprintf@fmt fmt `*.31Cuc  1 p 1 26 ]
+"23
+} 0
+"1817 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1820
+[v vfprintf@cfmt cfmt `*.31uc  1 a 1 24 ]
+[s S2154 _IO_FILE 0 ]
+"1817
+[v vfprintf@fp fp `*.30S2154  1 p 1 21 ]
+[v vfprintf@fmt fmt `*.31Cuc  1 p 1 22 ]
+[v vfprintf@ap ap `*.30*.30v  1 p 1 23 ]
+"1840
+} 0
+"1177
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S2167 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `d 1 f 4 0 ]
+"1188
+[v vfpfcnvrt@convarg convarg `S2167  1 a 4 16 ]
+"1179
+[v vfpfcnvrt@c c `uc  1 a 1 20 ]
+[v vfpfcnvrt@cp cp `*.31uc  1 a 1 15 ]
+"1180
+[v vfpfcnvrt@done done `a  1 a 1 14 ]
+[s S2154 _IO_FILE 0 ]
+"1177
+[v vfpfcnvrt@fp fp `*.30S2154  1 p 1 10 ]
+[v vfpfcnvrt@fmt fmt `*.30*.31uc  1 p 1 11 ]
+[v vfpfcnvrt@ap ap `*.30*.30v  1 p 1 12 ]
+"1814
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S2119 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S2122 _IO_FILE 12 `S2119 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.30S2122  1 p 1 2 ]
+"24
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 6 ]
+"4
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"3 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\memset.c
+[v _memset memset `(*.30v  1 e 2 0 ]
+{
+"5
+[v memset@p p `*.30uc  1 a 1 5 ]
+"3
+[v memset@dest dest `*.30v  1 p 1 0 ]
+[v memset@c c `i  1 p 2 1 ]
+[v memset@n n `ui  1 p 2 3 ]
+"10
+} 0
+"91 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\ECUAL/DC_MOTOR/dc_motor.c
+[v _dc_motor_stop dc_motor_stop `(uc  1 e 1 0 ]
+{
+"93
+[v dc_motor_stop@ret ret `uc  1 a 1 10 ]
+"94
+[v dc_motor_stop@gpio_ret gpio_ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"91
+[s S32 . 3 `S24 1 dc_motor_pin0 1 0 `S24 1 dc_motor_pin1 1 1 `E3043 1 dc_motor_state 1 2 ]
+[v dc_motor_stop@dc_motor dc_motor `*.30S32  1 p 1 8 ]
+"106
+} 0
+"41
+[v _dc_motor_move_right dc_motor_move_right `(uc  1 e 1 0 ]
+{
+"43
+[v dc_motor_move_right@ret ret `uc  1 a 1 10 ]
+"44
+[v dc_motor_move_right@gpio_ret gpio_ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"41
+[s S32 . 3 `S24 1 dc_motor_pin0 1 0 `S24 1 dc_motor_pin1 1 1 `E3043 1 dc_motor_state 1 2 ]
+[v dc_motor_move_right@dc_motor dc_motor `*.30S32  1 p 1 8 ]
+"56
+} 0
+"81 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/GPIO/gpio.c
+[v i2_gpio_pin_logic_write gpio_pin_logic_write `(uc  1 e 1 0 ]
+{
+"83
+[v i2gpio_pin_logic_write@ret ret `uc  1 a 1 7 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"81
+[v i2gpio_pin_logic_write@pin pin `*.30S24  1 p 1 0 ]
+[v i2gpio_pin_logic_write@pin_logic pin_logic `E2978  1 p 1 1 ]
+"105
+} 0
+"118 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/USART/usart.c
+[v _EUSART_ASYNC_ReadByteNonBlocking EUSART_ASYNC_ReadByteNonBlocking `(uc  1 e 1 0 ]
+{
+[v EUSART_ASYNC_ReadByteNonBlocking@_data _data `*.30uc  1 p 1 0 ]
+"128
+} 0
+"322 C:\study\Embedded Systems Diploma\projects\heater and air conditioner\heater and air conditioner.X\MCAL/ADC/adc.c
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"327
+} 0
